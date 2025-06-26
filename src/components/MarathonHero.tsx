@@ -3,17 +3,17 @@ import TelegramButton from "./TelegramButton";
 
 const MarathonHero = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-purple-100 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-rose-50 to-pink-100 relative overflow-hidden">
       {/* Декоративные элементы */}
-      <div className="absolute top-10 left-10 w-20 h-20 bg-purple-200/30 rounded-full blur-xl animate-pulse"></div>
-      <div className="absolute top-1/2 right-10 w-32 h-32 bg-pink-200/30 rounded-full blur-xl animate-pulse delay-1000"></div>
-      <div className="absolute bottom-20 left-1/4 w-16 h-16 bg-purple-300/40 rounded-full blur-lg animate-pulse delay-500"></div>
+      <div className="absolute top-10 left-10 w-20 h-20 bg-pink-200/30 rounded-full blur-xl animate-pulse"></div>
+      <div className="absolute top-1/2 right-10 w-32 h-32 bg-rose-200/30 rounded-full blur-xl animate-pulse delay-1000"></div>
+      <div className="absolute bottom-20 left-1/4 w-16 h-16 bg-pink-300/40 rounded-full blur-lg animate-pulse delay-500"></div>
 
       <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           {/* Заголовок */}
           <div className="mb-8">
-            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">
+            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-pink-600 via-pink-500 to-rose-500 bg-clip-text text-transparent mb-4">
               Марафон Лайков
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 font-light">

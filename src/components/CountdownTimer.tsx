@@ -61,7 +61,7 @@ const CountdownTimer = () => {
           key={index}
           className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 min-w-[100px] text-center"
         >
-          <div className="text-3xl md:text-4xl font-bold text-purple-600 mb-2">
+          <div className="text-3xl md:text-4xl font-bold text-pink-600 mb-2">
             {unit.value.toString().padStart(2, "0")}
           </div>
           <div className="text-sm text-gray-600 font-medium">{unit.label}</div>
