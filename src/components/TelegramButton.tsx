@@ -5,7 +5,7 @@ interface TelegramButtonProps {
 }
 
 const TelegramButton = ({
-  botUrl = "https://t.me/your_marathon_bot",
+  botUrl = "https://t.me/Youlovekinoki_bot",
 }: TelegramButtonProps) => {
   const handleTelegramClick = () => {
     window.open(botUrl, "_blank");
