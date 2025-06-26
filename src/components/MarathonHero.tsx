@@ -4,10 +4,20 @@ import TelegramButton from "./TelegramButton";
 const MarathonHero = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-rose-50 to-pink-100 relative overflow-hidden">
+      {/* Фоновое изображение */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="https://cdn.poehali.dev/files/331a78d1-87f6-4e38-b624-92dab6739ad6.jpeg"
+          alt="Лебеди в тумане"
+          className="w-full h-full object-cover opacity-20"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-pink-50/80 via-rose-50/70 to-pink-100/80"></div>
+      </div>
+
       {/* Декоративные элементы */}
-      <div className="absolute top-10 left-10 w-20 h-20 bg-pink-200/30 rounded-full blur-xl animate-pulse"></div>
-      <div className="absolute top-1/2 right-10 w-32 h-32 bg-rose-200/30 rounded-full blur-xl animate-pulse delay-1000"></div>
-      <div className="absolute bottom-20 left-1/4 w-16 h-16 bg-pink-300/40 rounded-full blur-lg animate-pulse delay-500"></div>
+      <div className="absolute top-10 left-10 w-20 h-20 bg-pink-200/30 rounded-full blur-xl animate-pulse z-5"></div>
+      <div className="absolute top-1/2 right-10 w-32 h-32 bg-rose-200/30 rounded-full blur-xl animate-pulse delay-1000 z-5"></div>
+      <div className="absolute bottom-20 left-1/4 w-16 h-16 bg-pink-300/40 rounded-full blur-lg animate-pulse delay-500 z-5"></div>
 
       <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
@@ -32,6 +42,28 @@ const MarathonHero = () => {
           {/* Кнопка Telegram */}
           <div className="flex justify-center">
             <TelegramButton />
+          </div>
+
+          {/* Секция с изображением */}
+          <div className="mt-8 mb-8">
+            <div className="relative max-w-2xl mx-auto">
+              <div className="bg-white/40 backdrop-blur-lg rounded-3xl p-6 shadow-2xl border border-white/30">
+                <img
+                  src="https://cdn.poehali.dev/files/331a78d1-87f6-4e38-b624-92dab6739ad6.jpeg"
+                  alt="Me & the girls эстетика"
+                  className="w-full h-64 md:h-80 object-cover rounded-2xl shadow-lg"
+                />
+                <div className="absolute inset-6 rounded-2xl bg-gradient-to-t from-pink-900/20 via-transparent to-transparent pointer-events-none"></div>
+                <div className="mt-4 text-center">
+                  <p className="text-pink-600 font-medium italic text-lg">
+                    "me & the girls" ✨
+                  </p>
+                  <p className="text-gray-600 text-sm mt-1">
+                    Создавайте магию вместе
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Дополнительная информация */}
